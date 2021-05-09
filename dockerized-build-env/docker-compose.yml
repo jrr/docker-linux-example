@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  dockerized-build:
+    image: linux-build-env
+    volumes:
+      - type: bind
+        source: ../
+        target: /app
