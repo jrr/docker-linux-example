@@ -4,4 +4,7 @@ hello: hello.c
 clean:
 	rm -f hello
 
-.PHONY: clean
+linux:
+	cd dockerized-build-env; docker-compose run -w /app dockerized-build
+
+.PHONY: clean linux
