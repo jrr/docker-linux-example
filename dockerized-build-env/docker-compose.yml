@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  dockerized-build:
+  build-env:
     build:
       context: ..
       dockerfile: ./dockerized-build-env/Dockerfile
