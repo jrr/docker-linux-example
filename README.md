@@ -1,6 +1,6 @@
 # docker-linux-example
 
-A simple example of using Docker to access your existing project from a Linux environment.
+A simple example of using Docker to access your existing project from a Linux environment, from [this blog post](https://spin.atomicobject.com/2021/05/18/docker-for-occasional-linux-access/).
 
 ```sh
 jrr@jrrmbp ~/r/docker-linux-example (main)> uname
